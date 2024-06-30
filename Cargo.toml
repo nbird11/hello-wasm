@@ -1,5 +1,5 @@
 [package]
-name = "hello-wasm"
+name = "wasm-game-of-life"
 version = "0.1.0"
 authors = ["Nathan Bird <nathanbirdka@gmail.com>"]
 description = "Sample project using wasm-pack in rust"
@@ -11,4 +11,4 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "0.2.92"
+wasm-bindgen = "0.2.34"
